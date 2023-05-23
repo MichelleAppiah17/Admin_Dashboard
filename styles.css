@@ -1,0 +1,45 @@
+.grid-container{
+    background-color: rgb(183, 183, 238);
+    height: 98vh;
+    width: 57em;
+    position: absolute;
+    left: 18%;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    grid-gap: 20px;
+}
+.dashboard{
+    background-color: palevioletred;
+    grid-row: 1/-1;
+    width: 7em;
+}
+.header{
+    background-color: rgb(202, 34, 218);
+    grid-column: 2/-1;
+    width: 49em;
+}
+.super_cool_project{
+    background-color: blueviolet;
+}
+.less_cool_project{
+    background-color: rgb(156, 71, 71);
+}
+.announcement{
+    background-color: rgb(173, 115, 28);
+}
+.impossible_app{
+    background-color: rgb(190, 212, 95);
+}
+.easy_peasy_app{
+    background-color: rgb(226, 162, 43);
+}
+.ad_blocker{
+    background-color: rgb(62, 190, 147);
+}
+.money_maker{
+    background-color: rgb(57, 57, 184);
+}
+.trending{
+    background-color: rgb(231, 38, 96);
+}
