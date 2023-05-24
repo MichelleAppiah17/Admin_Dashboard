@@ -4,42 +4,71 @@
     width: 57em;
     position: absolute;
     left: 18%;
-    display: grid;
-    grid-template-columns: repeat(4,100px);
-    grid-template-rows: repeat(4,100px);
-    grid-gap: 20px;
+}
+.grid-1{
+    display: flex;
 }
 .dashboard{
     background-color: palevioletred;
-    grid-row: 1/-1;
-    width: 7em;
+    height: 98vh;
+    width: 13em;
 }
 .header{
     background-color: rgb(202, 34, 218);
-    grid-column: 2/-1;
-    width: 49em;
+    width: 44em;
+    height: 8em;
+}
+.grid-2{
+    display: grid;
+    grid-template-rows: repeat(3,60px);
+    grid-template-columns: repeat(3,60px);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.left{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
 }
 .super_cool_project{
     background-color: blueviolet;
+    width: 10em;
+    height: 10em;
 }
 .less_cool_project{
     background-color: rgb(156, 71, 71);
-}
-.announcement{
-    background-color: rgb(173, 115, 28);
+    width: 10em;
+    height: 10em;
+    margin-left: 5em;
+
 }
 .impossible_app{
     background-color: rgb(190, 212, 95);
+    width: 10em;
+    height: 10em;
+    
 }
 .easy_peasy_app{
     background-color: rgb(226, 162, 43);
-}
-.ad_blocker{
-    background-color: rgb(62, 190, 147);
+   
 }
 .money_maker{
     background-color: rgb(57, 57, 184);
+  
 }
 .trending{
     background-color: rgb(231, 38, 96);
+  
+}
+.right{
+    position: absolute;
+    left: 20em;
+}
+.announcement{
+    background-color: rgb(173, 115, 28);
+  
+}
+.ad_blocker{
+    background-color: rgb(62, 190, 147);
+  
 }
