@@ -9,7 +9,7 @@
     display: flex;
 }
 .dashboard{
-    background-color: rgb(85, 62, 216);
+    background-color:#2563eb;
     height: 98vh;
     width: 14em;
 }
@@ -54,10 +54,49 @@
 } 
 
 .header{
-    background-color: rgb(202, 34, 218);
+    background-color: rgb(239, 233, 240);
     width: 44em;
     height: 8em;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.5);
 }
+.upper, .picture_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 10px;
+}
+input{
+    border-radius: 15px;
+    width: 20em;
+    background-color: rgb(216, 212, 212);
+    border: 1px solid rgb(216, 212, 212);
+    margin-left: 20px;
+    margin-right: 90px;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    line-height: 1px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin-right: 20px;
+}
+button{
+    border-radius: 10px;
+    width: 60px;
+    background-color:#2563eb;
+    border: 1px solid#2563eb;
+    color: white;
+}
+
 .grid-2{
     display: grid;
     grid-template-rows: repeat(3,60px);
