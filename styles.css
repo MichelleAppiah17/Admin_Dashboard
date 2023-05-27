@@ -1,3 +1,7 @@
+
+ body{
+    font-family: Roboto;
+}
 .grid-container{
     background-color: rgb(183, 183, 238);
     height: 98vh;
@@ -96,58 +100,81 @@ button{
     border: 1px solid#2563eb;
     color: white;
 }
-
+.cards_heading{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 17px;
+}
 .grid-2{
-    display: grid;
-    grid-template-rows: repeat(3,60px);
-    grid-template-columns: repeat(3,60px);
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 24%;
 }
-.left{
+.left_cards{
     display: grid;
-    grid-template-columns: repeat(2,100px);
+    grid-template-columns: repeat(2,230px);
+    grid-template-rows: repeat(3,140px);
+    column-gap: 1px;
+    row-gap: 10px;
 }
-.super_cool_project{
-    background-color: blueviolet;
-    width: 10em;
-    height: 10em;
+.card{
+    background-color: white;
+    font-size: 11px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 4px solid #facc15;
+    border-radius: 6px;
 }
-.less_cool_project{
-    background-color: rgb(156, 71, 71);
-    width: 10em;
-    height: 10em;
-    margin-left: 5em;
+.card_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    width: 90%
+}
 
+.right_cards{
+    position: absolute;
+    left: 30em;
+    bottom: 1%;
+    display: grid;
+    grid-template-columns: 180px;
+    grid-template-rows: repeat(2,200px);
+    column-gap: 10px;
+    row-gap: 40px;
 }
-.impossible_app{
-    background-color: rgb(190, 212, 95);
-    width: 10em;
-    height: 10em;
+.announcements{
+    background-color: white;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.announcements p{
+    border-bottom: 0.2px solid black;
     
 }
-.easy_peasy_app{
-    background-color: rgb(226, 162, 43);
-   
-}
-.money_maker{
-    background-color: rgb(57, 57, 184);
-  
+.trending_heading{
+    position: absolute;
+    left: 30em;
+    top: 12em;
 }
 .trending{
-    background-color: rgb(231, 38, 96);
-  
+    background-color: white;
+    border-radius: 5px;
 }
-.right{
-    position: absolute;
-    left: 20em;
+.trend_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-size: 11px;
 }
-.announcement{
-    background-color: rgb(173, 115, 28);
-  
-}
-.ad_blocker{
-    background-color: rgb(62, 190, 147);
-  
-}
+
+
